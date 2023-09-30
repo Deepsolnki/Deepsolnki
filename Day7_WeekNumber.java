@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Weeknumber{
+public static void main(String args[]){
+	Scanner sc = new Scanner(System.in);
+	System.out.println(" Please Enter the Week Number > ");
+	int num = sc.nextInt();
+if(num==0)
+	System.out.println(num+" : Sunday ");
+else if(num==1)
+	System.out.println(num+" : Monday ");
+else if(num==2)
+	System.out.println(num+" : Tuesday ");
+else if(num==3)
+	System.out.println(num+" : Wednesday ");
+else if(num==4)
+	System.out.println(num+" : Thursday ");
+else if(num==5)
+	System.out.println(num+" : Friday ");
+else if(num==6)
+	System.out.println(num+" : Saturday ");
+else
+	System.out.println(" Week Number ia Wrong ");
+	}
+}
