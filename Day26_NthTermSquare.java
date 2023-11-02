@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class theNthSquare{
+public static void main(String args [])
+{
+ Scanner sc = new Scanner(System.in);
+ System.out.println("Enter the number:-> ");
+ int n = sc.nextInt();
+
+ int square = 0;
+ for(int i=1; i<=n; i++) 
+{
+ square =i*i;
+ System.out.println("Square of " + i + " is: "+square);
+}
+} 
+}
